@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32BG22C224F512IM32" partId="mcu.arm.efr32.bg22.efr32bg22c224f512im32" contextId="com.silabs.sdk.stack.super:4.1.3._168907748">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="GPIO" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_DEBUG%T%btl_debug_cfg.h"/>
+    <property object="GPIO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PORTIO" propertyId="portio.gpio.enable.swv" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.clk" value="17"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.cs" value="4"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.rx" value="16"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.tx" value="18"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.clk" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.cs" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.clk" value="17"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.cs" value="4"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.rx" value="16"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.tx" value="18"/>
+    <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART1" propertyId="ABModule.selectedRequirement" value="usart%T%SL_USART_EXTFLASH%T%btl_spi_controller_usart_driver_cfg.h"/>
+    <property object="USART1" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>

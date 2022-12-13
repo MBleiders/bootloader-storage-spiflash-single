@@ -1,0 +1,11 @@
+#CRC Codes for initially generated config files -- do not modify!
+btl_core_cfg.h=1093047170
+btl_debug_cfg.h=1736398931
+btl_spi_controller_usart_driver_cfg.h=-1657221857
+btl_spiflash_storage_cfg.h=254787522
+btl_storage_cfg.h=-1588108937
+btl_storage_slot_cfg.h=704277653
+emlib_core_debug_config.h=-551881347
+mbedtls_config.h=-131196312
+psa_crypto_config.h=2060553942
+sl_memory_config.h=687128566
